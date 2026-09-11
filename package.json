@@ -1,25 +1,26 @@
 {
   "name": "splash-and-squash",
   "version": "1.0.0",
+  "description": "Secure P2P Radio",
+  "author": "ps",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder"
   },
   "dependencies": {
-    "electron": "^27.0.0",
     "electron-store": "^8.1.0",
     "peerjs": "^1.4.7"
   },
   "devDependencies": {
+    "electron": "^27.0.0",
     "electron-builder": "^24.6.4"
   },
   "build": {
     "appId": "com.splashsquash.radio",
     "productName": "Splash & Squash",
     "win": {
-      "target": "nsis",
-      "icon": "icon.png"
+      "target": "nsis"
     }
   }
 }
